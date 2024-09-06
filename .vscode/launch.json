@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Launch InventoryManagementApp",
+        "request": "launch",
+        "mainClass": "InventoryManagementApp",
+        "projectName": "MyInventoryApp",
+        "classpath": [
+          "lib/mysql-connector-java.jar"  // Include the JAR file here
+        ]
+      }
+    ]
+  }
+  
