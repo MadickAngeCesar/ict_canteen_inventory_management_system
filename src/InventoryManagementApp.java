@@ -537,7 +537,7 @@ public class InventoryManagementApp extends javax.swing.JFrame {
     }                                        
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        jTabbedPane1.setSelectedIndex(1);// Index 0 corresponds to "Add Item" tab        
+        jTabbedPane1.setSelectedIndex(1);       
     }                                        
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         

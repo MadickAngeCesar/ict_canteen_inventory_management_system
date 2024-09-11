@@ -21,7 +21,7 @@ public class DatabaseHelper {
     }
 
     public static void addItem(String name, String category, String supplier, String item_id, int quantity, double price) {
-        String sql = "INSERT INTO Items(name, category, supplier, item_id, quantity, price) VALUES(?,?,?,?,?,?)";
+        String sql = "INSERT INTO Items(name, item_id, category, supplier, quantity, price) VALUES(?,?,?,?,?,?)";
         
         try (Connection conn = connect();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
